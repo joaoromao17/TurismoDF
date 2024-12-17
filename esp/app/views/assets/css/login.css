@@ -1,0 +1,54 @@
+:root{
+    --PRETO-AZULADO: rgb(0, 8, 20);
+    --AZUL-ESCURO: rgb(0, 29, 61);
+    --AZUL: rgb(0,53,102);
+    --AZUL-CLARO: rgb(142,202,230);
+    --AMARELO: rgb(255,195,0);
+    --AMARELO-CLARO: rgb(255,214,0);
+    --VERDE-ESCURO: rgb(103,148,54);
+    --VERDE: rgb(165,190,0);
+    --LARANJA: rgb(251,133,0);
+    --BRANCO: #fff;
+    --PRETO: #000;
+}
+
+.div_login {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.div_login h1 {
+    font-weight: 700;
+}
+
+.input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.button:hover {
+    background-color: blue;
+    opacity: 1;
+    cursor: pointer;
+}

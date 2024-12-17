@@ -1,0 +1,37 @@
+:root{
+    --PRETO-AZULADO: rgb(0, 8, 20);
+    --AZUL-ESCURO: rgb(0, 29, 61);
+    --AZUL: rgb(0,53,102);
+    --AZUL-CLARO: rgb(142,202,230);
+    --AMARELO: rgb(255,195,0);
+    --AMARELO-CLARO: rgb(255,214,0);
+    --VERDE-ESCURO: rgb(103,148,54);
+    --VERDE: rgb(165,190,0);
+    --LARANJA: rgb(251,133,0);
+    --BRANCO: #fff;
+    --PRETO: #000;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    max-width: 300px;
+    z-index: 2;
+    display: none;
+    border-radius: 5px;
+}
